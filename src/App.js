@@ -21,11 +21,6 @@ const App = () => {
       .catch((err) => console.log(err));
   }, []);
 
-  // const Name = (props) => <div className="name">{props.data.name}</div>;
-  // console.log(data);
-
-  // console.log(characters);
-
   return (
     <div className="App">
       <h1 className="Header" style={{ margin: "20px" }}>
